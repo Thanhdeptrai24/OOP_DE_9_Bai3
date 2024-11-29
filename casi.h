@@ -15,6 +15,7 @@ public:
 	virtual void nhap();
 	virtual void xuat() ;
 	virtual void tinhluong() = 0;
+	virtual~ casi(){}
 	int getluong();
 
 };
