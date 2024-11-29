@@ -51,6 +51,10 @@ int main() {
 	cout << "\nCa si co luong cao nhat:\n";
 	vt[0]->xuat();
 	cout <<"\nLuong:" <<vt[0]->getluong();
+	for (auto& x:vt){
+		delete x;
+	}
+	
 
 
 
